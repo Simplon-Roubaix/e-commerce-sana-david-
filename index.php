@@ -9,9 +9,10 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
  <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
- <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet"> 
+ <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="icon" href="favicon.ico">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
@@ -20,6 +21,31 @@
         <![endif]-->
 
 <?php include ("header.php"); ?>
+<?php include("section.php"); ?>
+<?php foreach ($coordonnees as $key => $value){
+   ?>
+<div class="container">
+  <div class="row">
+
+</div>
+
+<div class="card carte" style="width: 20rem;">
+  <img class="card-img-top img-fluid" src="<?php echo $value['image'];  ?>" alt="Card image cap">
+  <div class="card-block">
+    <h4 class="card-title"><?php echo $value['titre']; ?></h4>
+    <p class="card-text">
+      <?php echo $value['description']; ?>
+    </p>
+    <a href="detail.php?" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+<?php
+}
+?>
+</div>
+
+</div>
+
 <?php include("footer.php"); ?>
 
           <script src="https://code.jquery.com/jquery-{{JQUERY_VERSION}}.min.js" integrity="{{JQUERY_SRI_HASH}}" crossorigin="anonymous"></script>

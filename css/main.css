@@ -123,14 +123,18 @@ border-color: black;
 background-color: #23394e;
 color: black;
 width: 100vw;
-position: fixed;
 bottom: 0;
 
 }
 
 
 
-
+.carte{
+  border: white 1px solid;
+  width: 20%;
+  margin-top: 3em;
+  margin-left: 10%;
+}
 
 
 
