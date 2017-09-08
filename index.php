@@ -20,4 +20,5 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
+
 <?php include("footer.php"); ?>
