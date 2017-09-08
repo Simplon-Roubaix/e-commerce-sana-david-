@@ -88,9 +88,31 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
 
+  background-color: #334f6a;
+}
 
+.footer p {
 
+  font-family: 'Lora', serif;
+}
+
+.date {
+
+  font-family: 'Lora', serif;
+
+}
+
+.footer {
+
+  text-align: center;
+border-style: solid;
+border-color: black;
+background-color: #23394e;
+color: black;
+
+}
 
 
 

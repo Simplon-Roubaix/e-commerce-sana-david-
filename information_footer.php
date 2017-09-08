@@ -1,7 +1,7 @@
 
 <?php
 
-$informationF = array ('Mentions legales ','Chartes de confidentialite',' Plan du site',' Copyright © 2048  Sanouo & Ousalem');
+$informationF = array ('Mentions legales - ',' Chartes de confidentialite ',' - Plan du site ','- Sanouo & Ousalem ','-Copyright © 2048 ');
      ?>
 
 <?php
