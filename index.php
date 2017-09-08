@@ -21,32 +21,6 @@
 
         <!-- Add your site or application content here -->
 
-<!--MA PARTIE -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <p> BONJOUR  </p>
-
-        <p>Hello changement.</p>
-
-
-
-
-
-
-
-
 
 
 
