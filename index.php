@@ -9,6 +9,7 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
  <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet"> 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
