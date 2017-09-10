@@ -87,10 +87,9 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-*{margin: 0;}
-body {
-
-  background-color: #334f6a;
+.tof
+{
+display: none;
 }
 
 .titre {
@@ -105,42 +104,56 @@ color: black;
 }
 
 .info p {
-
   font-family: 'Lora', serif;
-}
-
-.date {
-
-  font-family: 'Lora', serif;
-
 }
 
 .info {
-
-  text-align: center;
-border-style: solid;
-border-color: black;
-background-color: #23394e;
-color: black;
-width: 100vw;
-bottom: 0;
-
+text-align: center;
+background-color: #242424;
+color: #DB1536;
+font-size: 14px;
+width: 100%;
+margin-top: 3em;
+padding-top: 10px;
+padding-bottom: 10px;
 }
 
-
-
-.carte{
-  border: white 1px solid;
-  width: 20%;
+.carte {
   margin-top: 3em;
-  margin-left: 10%;
+}
+
+.carte .tonbou {
+  background-color: #DB1536;
+  border: solid 1px #DB1536;
+  font-family: 'Roboto', sans-serif;
+}
+
+.carte h4 , .carte p {
+  font-family: 'Roboto', sans-serif;
+}
+
+.tof {
+  margin-top: 1em;
+}
+
+.tof img {
+  width: 60%;
+  height: 60vh;
+  margin-left: 20%;
 }
 
 
 
 
-
-
+/*image de reduction*/
+@media (min-width: 650px)
+{
+  .tof
+  {
+  display: block;
+  }
+}
+/*fin image de reduction */
 
 
 
