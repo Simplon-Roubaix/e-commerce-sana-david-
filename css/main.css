@@ -153,6 +153,29 @@ padding-bottom: 10px;
   margin-left: 20%;
 }
 
+/*rules page detail*/
+.retour .tonbou , .tecar .tonbou
+{
+  background-color: #DB1536;
+  border: solid 1px #DB1536;
+}
+.retour .tonbou
+{
+float: right;
+}
+
+.retour .tonbou:hover , .tecar .tonbou:hover
+{
+  background-color: #242424;
+  border: solid 1px #242424;
+}
+
+.tecar
+{
+  margin-top: 3em;
+  margin-left: 18%;
+}
+/*end rules page detail*/
 
 
 
