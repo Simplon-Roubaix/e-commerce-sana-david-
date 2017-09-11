@@ -1,15 +1,11 @@
 
-<!--
 <?php include ("header.php"); ?>
 
-
-
-
-
-
-
-
+<div class="tof">
+  <img src="img/1.jpg" alt="image de reduction de tarif">
+</div>
 <?php include("section.php"); ?>
+
 
 <div class="container">
   <div class="row">
@@ -22,16 +18,10 @@
        <h4 class="card-title"><?php echo $value['titre']; ?></h4>
        <p class="card-text">
          <?php echo $value['description']; ?>
-
-
        </p>
-    <a href="detail.php?>" class="btn btn-primary tonbou">Voir produit</a>
+    <a href="detail.php?article=<?php echo $key?>" class="btn btn-primary tonbou">Voir produit</a>
      </div>
    </div>
-
-
-
-
 
 
 
@@ -42,6 +32,5 @@
 ?>
 </div>
 </div>
-
 
 <?php include("footer.php"); ?>

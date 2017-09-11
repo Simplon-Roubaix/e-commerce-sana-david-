@@ -123,12 +123,20 @@ padding-bottom: 10px;
 }
 
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 2b6bca2fca3b0c8bb501985fe711ed4031561ebf
 .carte .tonbou {
   background-color: #DB1536;
   border: solid 1px #DB1536;
   font-family: 'Roboto', sans-serif;
+}
+
+.carte .tonbou:hover{
+  background-color: #242424;
+  border: solid 1px #242424;
 }
 
 .carte h4 , .carte p {
