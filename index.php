@@ -1,18 +1,19 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="fr">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>Site de Vente</title>
-        <meta name="description" content="">
+        <meta name="description" content="site de vente de moto">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
- <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet"> 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="icon" href="favicon.ico">
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Faster+One|Roboto" rel="stylesheet">
     </head>
     <body>
         <!--[if lte IE 9]>
@@ -20,37 +21,49 @@
         <![endif]-->
 
 <?php include ("header.php"); ?>
+
+<div class="tof">
+  <img src="img/1.jpg" alt="image de reduction de tarif">
+</div>
+
+
 <?php include("section.php"); ?>
 
-<!--
-<?php foreach ($coordonnees as $key => $value){
-   ?>
 <div class="container">
   <div class="row">
 
-</div>
+<?php foreach ($coordonnees as $key => $value){
+   ?>
+   <div class="card carte col-12 col-md-6 col-lg-5" >
+     <img class="card-img-top img-fluid" src="<?php echo $value['image'];  ?>" alt="moto">
+     <div class="card-block">
+       <h4 class="card-title"><?php echo $value['titre']; ?></h4>
+       <p class="card-text">
+         <?php echo $value['description']; ?>
+       </p>
+       <a href="detail.php?" class="btn btn-primary tonbou">Voir produit</a>
+     </div>
+   </div>
 
-<div class="card carte" style="width: 20rem;">
-  <img class="card-img-top img-fluid" src="<?php echo $value['image'];  ?>" alt="Card image cap">
-  <div class="card-block">
-    <h4 class="card-title"><?php echo $value['titre']; ?></h4>
-    <p class="card-text">
-      <?php echo $value['description']; ?>
-    </p>
-    <a href="detail.php?" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
+
+
+
+
+
+
+
+
 <?php
 }
 ?>
 </div>
-
 </div>
 
--->
 
 <?php include("footer.php"); ?>
 
+
+          <script src="js/vendor/modernizr-2.8.3.min.js"></script>
           <script src="https://code.jquery.com/jquery-{{JQUERY_VERSION}}.min.js" integrity="{{JQUERY_SRI_HASH}}" crossorigin="anonymous"></script>
           <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
           <script src="js/plugins.js"></script>

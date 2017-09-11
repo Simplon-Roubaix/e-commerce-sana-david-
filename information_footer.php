@@ -5,4 +5,6 @@ $informationF = array ('Mentions legales - ',' Chartes de confidentialite ',' - 
      ?>
 
 <?php
-$informationH = array ('E-commerce<br>' , ' Le site numéro 1'); ?>
+
+
+$informationH = array ('Site E-Commerce <br>' , ' Take the road'); ?>
