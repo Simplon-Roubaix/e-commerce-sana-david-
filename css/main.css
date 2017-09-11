@@ -87,20 +87,20 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-*{margin: 0;}
+
 body {
 
-  background-color: #334f6a;
+  background-color: white;
 }
 
 .titre {
-font-family: 'Permanent Marker', cursive;
+font-family: 'Great Vibes', cursive;
 font-size: 50px;
 text-align: center;
-border-style: solid;
-border-color: black;
-background-color: #23394e;
-color: black;
+background-color: #000000;
+color:#b9c916;
+
+
 
 }
 
@@ -117,24 +117,21 @@ color: black;
 
 .info {
 
-  text-align: center;
-border-style: solid;
-border-color: black;
-background-color: #23394e;
-color: black;
-width: 100vw;
-bottom: 0;
+background-color: #000000;
+color: white;
+text-align: center;
 
 }
 
 
-
+/*
 .carte{
   border: white 1px solid;
   width: 20%;
   margin-top: 3em;
   margin-left: 10%;
-}
+} */
+
 
 
 

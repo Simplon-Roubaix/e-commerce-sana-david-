@@ -8,8 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
- <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
- <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet"> 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="icon" href="favicon.ico">
@@ -22,6 +21,8 @@
 
 <?php include ("header.php"); ?>
 <?php include("section.php"); ?>
+
+<!--
 <?php foreach ($coordonnees as $key => $value){
    ?>
 <div class="container">
@@ -45,6 +46,8 @@
 </div>
 
 </div>
+
+-->
 
 <?php include("footer.php"); ?>
 
