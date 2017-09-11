@@ -12,7 +12,6 @@ $article = $_GET['article'];
 
 
 
-
 <div class="tecar card col-8 col-md-8 col-lg-8">
   <img src="<?php echo $coordonnees[$article]['image'];  ?>" class="img-fluid" alt="moto">
   <div class="inf">
