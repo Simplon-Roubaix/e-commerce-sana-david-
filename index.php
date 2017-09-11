@@ -15,6 +15,7 @@
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="icon" href="favicon.ico">
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Faster+One|Roboto" rel="stylesheet">
     </head>
     <body>
         <!--[if lte IE 9]>
@@ -29,15 +30,15 @@
 
 
 <?php include("section.php"); ?>
-
-<?php foreach ($coordonnees as $key => $value){
-   ?>
 <div class="container">
   <div class="row">
+<?php foreach ($coordonnees as $key => $value){
+   ?>
 
 
 
-<div class="card carte col-12 col-md-6 col-lg-4" >
+
+<div class="card carte col-12 col-md-6 col-lg-5" >
   <img class="card-img-top img-fluid" src="<?php echo $value['image'];  ?>" alt="moto">
   <div class="card-block">
     <h4 class="card-title"><?php echo $value['titre']; ?></h4>
@@ -48,12 +49,12 @@
   </div>
 </div>
 
-</div>
-</div>
+
 <?php
 }
 ?>
-
+</div>
+</div>
 
 <?php include("footer.php"); ?>
 
