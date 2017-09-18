@@ -1,5 +1,12 @@
 
-<?php include ("header.php"); ?>
+<?php include ("header.php");
+
+  ?>
+
+
+
+
+
 
 <div class="tof">
   <img src="img/1.jpg" alt="image de reduction de tarif">

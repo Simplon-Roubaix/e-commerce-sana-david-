@@ -202,6 +202,22 @@ float: right;
 /*fin position carte */
 
 
+.connexion  {
+
+  text-align: right;
+  font-size: 10px;
+font-family: 'PT Sans', sans-serif;
+margin-right: 15px;
+
+
+}
+
+  .connexion h1 {
+text-align: right;
+margin-right: 30px;
+font-size: 15px;
+font-family: 'PT Sans', sans-serif;
+  }
 
 
 

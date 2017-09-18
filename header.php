@@ -15,6 +15,7 @@
         <link rel="icon" href="favicon.ico">
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Faster+One|Roboto" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
     </head>
     <body>
         <!--[if lte IE 9]>
@@ -24,7 +25,7 @@
 
 <header class = 'titre'>
 <?php include('information_footer.php'); ?>
-
+<?php include('connexion.php'); ?>
 
 <p>  <?php  foreach ($informationH as $element) {
 
