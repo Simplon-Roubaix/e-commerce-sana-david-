@@ -20,7 +20,7 @@ $article = $_GET['article'];
       <?php echo $coordonnees[$article]['descriptionMax'];  ?>
     </p>
     <a href="index.php" class="btn btn-primary tonbou">Retour</a>
-    <a href="#" class="btn btn-primary tonbou">Achetez</a>
+    <a href="espace.php" class="btn btn-primary tonbou">Achetez</a>
   </div>
 </div>
 
