@@ -1,3 +1,4 @@
+
 <?php include ("section.php");
  include ("header.php");
 
@@ -23,7 +24,6 @@ $article = $_GET['article'];
     <a href="#" class="btn btn-primary tonbou">Achetez</a>
   </div>
 </div>
-
 
 
 

@@ -87,6 +87,7 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
 .tof
 {
 display: none;
@@ -101,11 +102,11 @@ background-color: #242424;
 color: white;
 padding-top: 5px;
 padding-bottom: 5px;
+
 }
 
-
-
 .info {
+
 text-align: center;
 background-color: #242424;
 color: #DB1536;
@@ -114,6 +115,7 @@ width: 100%;
 margin-top: 3em;
 padding-top: 10px;
 padding-bottom: 10px;
+
 }
 
 .carte {
@@ -121,6 +123,11 @@ padding-bottom: 10px;
 }
 
 
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> 2b6bca2fca3b0c8bb501985fe711ed4031561ebf
 .carte .tonbou {
   background-color: #DB1536;
   border: solid 1px #DB1536;
@@ -180,6 +187,7 @@ float: right;
   display: block;
   }
 }
+
 /*fin image de reduction */
 
 /*position carte*/
@@ -192,6 +200,32 @@ float: right;
   }
 }
 /*fin position carte */
+
+.connecter {
+
+  width: 250px;
+  text-align: center;
+  margin-right: 10px;
+    font-size: 10px;
+  font-family: 'PT Sans', sans-serif;
+  width: 200px;
+
+}
+
+
+
+
+
+
+
+}
+
+  .titlesco {
+text-align: center;
+margin-right: 30px;
+font-size: 15px;
+font-family: 'PT Sans', sans-serif;
+  }
 
 
 

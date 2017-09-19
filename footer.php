@@ -13,6 +13,7 @@
 
   </footer>
 
+
   <script src="js/vendor/modernizr-2.8.3.min.js"></script>
   <script src="https://code.jquery.com/jquery-{{JQUERY_VERSION}}.min.js" integrity="{{JQUERY_SRI_HASH}}" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
