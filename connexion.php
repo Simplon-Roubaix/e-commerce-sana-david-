@@ -1,10 +1,16 @@
-<section class='connexion'> <h1> Connexion </h1>
+
+
+<section class='connecter'>
+  <div class='connexion'>
+     <h1 class='titlesco'> Connexion </h1>
 
   <form class="" action="" method="post">
     <input  class="pseudo" type="text" name="pseudo" value="" placeholder=" admin"> <br />
     <input class="password" type="password" name="password" value="" placeholder="password"> <br />
     <input type="submit" name="validez" value="Validez" class='valid'>
-  </form>
+  </form></div>
+
+
 
   <?php  try
             {
@@ -25,6 +31,11 @@ if ( isset($_POST['pseudo'])) {
               $_POST['pseudo']
             ));
 
+
+
+
+
+
             while ($donnees = $reponse->fetch()) {
 
               if ($_POST["password"] == $donnees["password"]) {
@@ -32,16 +43,22 @@ if ( isset($_POST['pseudo'])) {
                  header('Location: index.php');
 
 
-               }
+               }elseif (empty($_POST['password'])) {
+                   echo 'mot de passe introuvable !';
+                 }
+
                elseif ( $_POST['password'] != $donnees["password"]) {
 
 
-                echo 'le pseudo ou le mot de passe incorrecte !';
+                echo ' mot de passe incorrecte !';
               }
                elseif ($_POST['pseudo'] != $donnees['pseudo']) {
-                  echo 'Pseudo introuvable ';
-                } else {
+                  echo 'pseudo introuvable ';
+                }
+                else {
                 header('Location: 404.html');}
+
+
 
 
               }
